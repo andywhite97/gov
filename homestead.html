@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinkhundla System</title>
+
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/nouislider/dist/nouislider.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+
+</head>
+<body>
+
+    <main class="page-wrapper">
+        <header class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-scroll-header="">
+            <div class="container"><a class="navbar-brand me-3 me-xl-4" href="real-estate-home-v1.html"><img class="d-block" src="img/logo/logo-dark.svg" width="116" alt="Gov"></a>
+              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="btn btn-sm text-primary d-none d-lg-block order-lg-3" href="#signin-modal" data-bs-toggle="modal"><i class="fi-user me-2"></i>Sign in</a>
+              <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
+                <ul class="navbar-nav navbar-nav-scroll" style="max-height: 35rem;">
+                  <!-- Demos switcher-->
+                  <li class="nav-item me-lg-2"><a class="nav-link align-items-center pe-lg-4" href="#"><i class="fi-layers me-2"></i>Map
+                    <span class="d-none d-lg-block position-absolute top-50 end-0 translate-middle-y border-end" style="width: 1px; height: 30px;"></span></a>
+                  </li>
+                  <!-- Menu items-->
+                  <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="tinkhundla.html">Tinkhundla</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="search.html">Search</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="help.html">Help</a>
+                  </li>
+                  <li class="nav-item d-lg-none">
+                    <a class="nav-link" href="#signin-modal" data-bs-toggle="modal"><i class="fi-user me-2"></i>Sign in</a>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </header>
+
+          <section class="bg-dark pt-5">
+            <div class="container py-5">
+              <h1 class="text-light pt-1 pt-md-3 mb-4">Inkhundla</h1>
+              <!-- Search form-->
+              <form class="form-group form-group-light d-block rounded-lg-pill mb-4">
+                <div class="row align-items-center g-0 ms-n2">
+                  <div class="col-lg-3 col-xl-4">
+                    <div class="input-group input-group-lg border-end-lg border-light"><span class="input-group-text text-light rounded-pill opacity-50 ps-3"><i class="fi-search"></i></span>
+                      <input class="form-control" type="text" placeholder="Search...">
+                    </div>
+                  </div>
+                  <hr class="hr-light d-lg-none my-2">
+                  <div class="col-lg-5 d-sm-flex">
+                    <div class="dropdown w-sm-50 border-end-sm border-light" data-bs-toggle="select">
+                      <button class="btn btn-link dropdown-toggle" type="button" data-bs-toggle="dropdown"><i class="fi-list me-2"></i><span class="dropdown-toggle-label">Region</span></button>
+                      <input type="hidden">
+                      <ul class="dropdown-menu dropdown-menu-light my-3">
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Manzini</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Hhohho</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Shiselweni</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Lubombo</span></a></li>
+                      </ul>
+                    </div>
+                    <hr class="hr-light d-sm-none my-2">
+                    <div class="dropdown w-sm-50 border-end-lg border-light" data-bs-toggle="select">
+                      <button class="btn btn-link dropdown-toggle" type="button" data-bs-toggle="dropdown"><i class="fi-map-pin me-2"></i><span class="dropdown-toggle-label">Area</span></button>
+                      <input type="hidden">
+                      <ul class="dropdown-menu dropdown-menu-light my-3">
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Area 01</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Area 02</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Area 03</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Area 04</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Area 05</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <hr class="hr-light d-lg-none my-2">
+                  <div class="col-lg-4 col-xl-3 d-flex align-items-center">
+                    <div class="dropdown w-50 w-lg-100" data-bs-toggle="select">
+                      <button class="btn btn-link dropdown-toggle" type="button" data-bs-toggle="dropdown"><i class="fi-geo me-2"></i><span class="dropdown-toggle-label">Chiefdom</span></button>
+                      <input type="hidden">
+                      <ul class="dropdown-menu dropdown-menu-light my-3">
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Chiefdom 01</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Chiefdom 02</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Chiefdom 03</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Chiefdom 04</span></a></li>
+                        <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Chiefdom 05</span></a></li>
+                      </ul>
+                    </div>
+                    <button class="btn btn-primary btn-lg w-50 w-lg-auto rounded-pill" type="button">Search</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </section>
+
+    </main>
+    
+
+    <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll><span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon fi-chevron-up">   </i></a>
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="vendor/nouislider/dist/nouislider.min.js"></script>
+    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <!-- Main theme script-->
+    <script src="js/theme.min.js"></script>
+</body>
+</html>
